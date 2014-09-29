@@ -40,16 +40,18 @@ body{
 h1, h2, h3, h4{
 
 	font-family:Cambria, Georgia, Times, ‘Times New Roman’, serif;  /* you need a font stack here */
+    
 }
 h1{
    /* background-color: #FFFFFF;*/
     color:#FFFFFF;
 	font-family:  ‘Lucida Bright’, Lucidabright, ‘Lucida Serif’, Lucida, ‘DejaVu Serif’, ‘Bitstream Vera Serif’, ‘Liberation Serif’, Georgia, serif;
     font-size: 6.854rem;
-    padding-right: 500px;
+    padding-right: 50%;
     background-image: url("../img/moon-header.jpg");
     background-repeat: no-repeat;
-    text-align: center;
+    text-align: right;
+    text-shadow: 1px 1px #fff;
 }
 h2{
     font-family:  ‘Lucida Bright’, Lucidabright, ‘Lucida Serif’, Lucida, ‘DejaVu Serif’, ‘Bitstream Vera Serif’, ‘Liberation Serif’, Georgia, serif;
@@ -57,7 +59,7 @@ h2{
     color: #CC3300;
     padding: 1rem 3rem; 
     line-height:1;
-    width:400px;
+    text-shadow: 1px 1px #ff0000;
 }
 h3{
     	font-family:  ‘Lucida Bright’, Lucidabright, ‘Lucida Serif’, Lucida, ‘DejaVu Serif’, ‘Bitstream Vera Serif’, ‘Liberation Serif’, Georgia, serif;
@@ -65,6 +67,7 @@ h3{
     color: #CC3300;
     padding: 1rem 3rem; 
     line-height: 1;	
+    text-shadow: 1px 1px #ff0000;
 }
 h4{
 	
@@ -74,8 +77,6 @@ p, a{
     padding: 1rem 3rem; 
     line-height: 1.6;
     font-size: 1.618rem;
-
-
 }
 li {
 
@@ -132,7 +133,8 @@ a:hover, a:active, a:focus{
 .footer a:hover,
 .footer a:active,
 .footer a:focus{
-	
+    text-decoration: none;
+    color: #ccee00;
 }
 
 
@@ -165,6 +167,7 @@ a:hover, a:active, a:focus{
 .footer p{
     color: #000000;
     font-size: 1rem;
+    padding: 1rem 3rem; 
 }
 .footer ul{
 	overflow:hidden;
